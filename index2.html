@@ -1,0 +1,113 @@
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Komornik Sądowy Krzysztof Czernecki</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato|Playfair+Display:400,500,700,900&display=swap&subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="c-header" id="main">
+        <div class="c-bar">
+            <img src="orzel.png" alt="orzel" class="c-bar__img">
+            <p class="c-bar__p p1">Komornik Sądowy Katowice </p>
+            <p class="c-bar__p">przy Sądzie Rejonowym Katowice-Zachód</p>
+            <p class="c-bar__p">Kancelaria Komornicza Nr XV w Katowicach.</p>
+        </div>
+        <nav class="c-navbar">
+            <a><i class="fa fa-bars fa-2x"></i></a>
+            <div class="c-navbar__inner o-base-width">
+                <div class="c-navbar__logo">Krzysztof Czernecki</div>
+                <ul class="c-navbar__list">
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="#wlasciwosc">Właściwość terytorialna</a></li>
+                    <li><a href="#">Dokumenty do pobrania</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="c-header__content">
+            <div class="c-header__content__headline">
+                <h1 class="c-header__content__h1">Executio iuris non habet iniuriam</h1>
+            </div>
+        </div>
+    </header>
+    <section class="c-section1">
+        <div class="c-section1__inner">
+            <h1 class="c-section1__h1">Dokumenty do pobrania:
+            </h1>
+            <a href="wltero.pdf" class="c-section1__a">1. Dokument przykładowy</a>
+            <a href="wltero.pd" class="c-section1__a">2. Dokument przykładowy</a>
+            <a href="wltero.pd" class="c-section1__a">3. Dokument przykładowy</a>
+        </div>
+    <section class="c-section2" id="wlasciwosc">
+        <div class="c-section2__inner">
+            <h1 class="c-section2__h1">Właściwość terytorialna:</h1>
+            <p class="c-section1__p p1-s2">Na podstawie art.10.1 ustawy z dnia 22 marca 2018 r. wierzyciel ma prawo wyboru komornika na obszarze właściwości sądu apelacyjnego, na którym znajduje się siedziba kancelarii komornika właściwego zgodnie z przepisami ustawy z dnia 17listopada 1964r. –Kodeks postępowania cywilnego, z wyjątkiem spraw:
+                <br> 1) o egzekucję z nieruchomości;
+                <br> 2) o wydanie nieruchomości;
+                <br> 3) o wprowadzenie w posiadanie nieruchomości;
+                <br> 4) o opróżnienie pomieszczeń, w tym lokali mieszkalnych, z osób lub rzeczy;
+                <br> 5) w których przepisy o egzekucji z nieruchomości stosuje się odpowiednio.
+            </p>
+            <a href="wltero.pdf" class="c-section2__a">Pobierz</a>
+        </div>
+    </section>
+
+    <section id="kontakt" class="c-section3">
+        <div class="c-section3__inner">
+            <div class="c-section3__left">
+                <h1 class="c-section3__h1">Kancelaria czynna</h1>
+                <p class="c-section3__p">Dla stron: Poniedziałek - Piątek 9:00 - 14:00
+                    <br> Komornik przyjmuje osobiście interesantów w każdy wtorek od 14:00 - 17:00.
+                    <br>W sprawach pilnych komornik przyjmuje również w innych dniach i godzinach po wcześniejszym uzgodnieniu terminu.
+                </p>
+            </div>
+            <img class="c-section3__image" src="img/img1.jpg" alt="img">
+        </div>
+    </section>
+    <iframe class="c-maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2549.8937097702856!2d19.020325565147207!3d50.27524320785582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSiedziba%20kancelarii%3A%20ul.%20S%C5%82oneczna%204%2040-135%20Katowice!5e0!3m2!1sen!2spl!4v1584786736456!5m2!1sen!2spl" width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <footer class="c-footer">
+        <div class="c-footer__left">
+            <h1 class="c-footer__left-h1">Kontakt</h1>
+            <p class="c-footer__left-p1">Siedziba kancelarii:</p>
+            <p class="c-footer__left-p1">ul. Słoneczna 4</p>
+            <p class="c-footer__left-p1">40-135 Katowice</p>
+        </div>
+        <div class="c-footer__right">
+            <h1 class="c-footer__right-h1">Telefon</h1>
+            <p class="c-footer__right-p1">32 400 92 79</p>
+            <h1 class="c-footer__right-h1">E-mail</h1>
+            <p class="c-footer__right-p1">katowice.czernecki@komornik.pl</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        function scroll(e) {
+
+            var href = $(this).attr('href');
+
+            e.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $(href).offset().top
+            }, 800);
+
+            location.hash = href;
+
+        };
+
+        $('a[href^="#"]').click(scroll);
+    </script>
+</body>
+
+</html>
