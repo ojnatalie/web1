@@ -129,11 +129,9 @@ a
 
 .c-header__content
 {
-  height: calc(80vh - 60px);
-  margin-top: -60px;
-  -ms-align-items: center;
+  height: 80vh;
   opacity: .9;
-  background: #fff url(img/img2.jpg) center/cover;
+  background: #fff url(img/img2.jpg) left/cover;
 }
 
 .c-header__content__headline
