@@ -213,6 +213,7 @@ section
 
 .c-section1__inner
 {
+  max-width: 800px;
   padding: 5em 10em;
 }
 
