@@ -449,7 +449,7 @@ font-size: 20px;
 
 i {display: none; color: #fff;overflow: hidden;}
 
-@media screen and (max-width:550px)
+@media screen and (max-width:720px)
 {
     .c-number {
     height: 50px;
