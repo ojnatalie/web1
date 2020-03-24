@@ -209,7 +209,7 @@ padding-left: 5px;
   -ms-flex-wrap: wrap;
   -o-flex-wrap: wrap;
   flex-wrap: wrap;
-  align-content: center;
+  align-content: flex-end;
   font-family: 'Lato',sans-serif;
   color: #666;
   padding-right: 50px;
