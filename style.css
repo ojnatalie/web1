@@ -24,6 +24,7 @@ body
   background: #fff;
   margin: 0;
   font-size: 14px;
+  overflow-x: hidden;
 }
 
 li
