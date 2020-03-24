@@ -222,17 +222,12 @@ padding-left: 5px;
   color: #fff;
 }
 
-section
-{
-  box-shadow: 0 -12px 94px -4px rgba(191,191,191,.6);
-}
-
 .c-section1
 {
   display: flex;
   justify-content: center;
   color: #555;
-  background-color: #f7f7f7;
+  background-color: #fff;
 }
 
 .c-section1__inner
@@ -264,7 +259,7 @@ section
   display: flex;
   justify-content: center;
   color: #fff;
-  background: #171f4b;
+  background: #f51d22;
 }
 
 .c-section2__inner
@@ -304,7 +299,7 @@ section
 
 .c-section3
 {
-  background: #dedede;
+  background: #fff;
   color: #555;
 }
 
