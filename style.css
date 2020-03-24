@@ -212,14 +212,14 @@ padding-left: 5px;
   align-content: center;
   font-family: 'Lato',sans-serif;
   color: #666;
+  padding-right: 50px;
 }
 
 .c-header__content__h1
 {
-  font-size: 2em;
+  font-size: 3em;
   line-height: 3em;
-  color: #555;
-  font-family: 'Playfair Display',serif;
+  color: #fff;
 }
 
 section
