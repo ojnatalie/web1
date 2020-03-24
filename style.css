@@ -364,6 +364,12 @@ padding-left: 5px;
   margin: 0 0 0 50px;
   text-transform: uppercase;
 }
+
+.kontakt {
+    background: #fff;
+color: #f51d22;
+      text-transform: none;
+}
 .c-maps
 {
   display: block;
