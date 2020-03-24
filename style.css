@@ -417,6 +417,14 @@ i {display: none; color: #fff;overflow: hidden;}
     .c-number {
     height: 50px;
 }
+  .c-bar__inner2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: flex-start;
+    flex: 1;
+}
+  
   .c-navbar__inner,.c-navbar__list
   {
     display: flex;
@@ -429,7 +437,9 @@ i {display: none; color: #fff;overflow: hidden;}
     padding:0;
     background: #f51d22;
     }
-    
+    .c-navbar {
+    width: 100%;
+      height: 100%;}
   .c-navbar__list
   {
     align-items: center;
