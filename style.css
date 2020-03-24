@@ -252,6 +252,13 @@ section
   padding-bottom: 1em;
 }
 
+.p-bold {    
+    background: #f51d22;
+    color: #fff;
+    padding: 1.5em;
+    font-size: 20px;
+}
+
 .c-section2
 {
   display: flex;
