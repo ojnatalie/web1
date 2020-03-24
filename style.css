@@ -218,54 +218,6 @@ padding: 0 10px 0 5px;
   font-family: 'Playfair Display',serif;
 }
 
-.c-navbar
-{
-  width: 100%;
-  height: 80px;
-  z-index: 2;
-  background: #171f4b;
-}
-
-
-.c-navbar__inner
-{
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-  -ms-align-items: center;
-  align-items: center;
-  height: 80px;
-  padding: 0 2em;
-}
-
-.c-navbar__logo
-{
-  font-family: 'Playfair Display',serif;
-  color: #fff;
-  font-size: 1.5em;
-}
-
-.c-navbar__list
-{
-  display: -webkit-flex;
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: flex;
-  color: #fff;
-  font-weight: light;
-}
-
-.c-navbar__list li:hover
-{
-  color: #888;
-  font-weight: 300;
-}
-
 section
 {
   box-shadow: 0 -12px 94px -4px rgba(191,191,191,.6);
