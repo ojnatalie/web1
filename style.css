@@ -71,9 +71,10 @@ a
 }
 
 .c-number {
+    display: block;
+  width: 100%;
     background: #444;
     color: white;
-    display: block;
     text-align: center;
     padding: 10px;
 }
@@ -102,14 +103,15 @@ padding-left: 5px;
 .c-bar__img
 {
   height: 70px;
-padding-left: 5px;
-    justify-content: flex-start;
+  padding-left: 5px;
+  justify-content: flex-start;
 }
 
 .c-bar__span {
     font-family: "Lato", sans-serif;
-padding: 0 10px 0 5px;
-        font-size: 16px;
+    padding: 0 10px 0 5px;
+    font-size: 16px;
+    color: #555;
 }
 
 .c-bar__p {
@@ -120,6 +122,8 @@ padding: 0 10px 0 5px;
   text-transform: uppercase;
   font-weight: 600;
 }
+
+.fa {color: #555;}
 
 .c-navbar
 {
