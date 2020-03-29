@@ -234,7 +234,7 @@ padding-left: 5px;
 .c-section1__inner
 {
   max-width: 800px;
-  padding: 5em 10em;
+  padding: 5em 10em 0 10em;
 }
 
 .c-section1__p
@@ -264,7 +264,7 @@ padding-left: 5px;
 
 .c-section2__inner
 {
-  padding: 0 10em 5em 10em;
+  padding: 5em 10em;
   text-align: center;
   max-width: 800px;
 }
@@ -307,6 +307,7 @@ padding-left: 5px;
 
 .c-section3
 {
+  padding: 2em 0;
   background: #fff;
   color: #555;
 }
